@@ -5,27 +5,24 @@ import About from './components/about'
 import Skills from './components/skills'
 import Banner from './components/banner'
 import Footer from './components/footer'
-import Navbar from './components/skills'
+import Navbar from './components/navbar'
 import Home from './components/home';
+import Experiences from './components/experiences';
 
 function App() {
   return (
     <div className="App">
-      <Router>
 
-        <Banner />
-        <Navbar />
+      <Navbar />
+      
+      <Routes>
+        <Route exact path="/" element={<Home />}></Route>
+        <Route exact path="/about" element={<About />}></Route>
+        <Route exact path="/skills" element={<Skills />}></Route>
+        <Route exact path="/experiences" element={<Experiences />}></Route>
+      </Routes>
 
-        <Routes>
-        <Route exact path="/home" component={() => <Home />} ></Route>
-          <Route exact path="/about" component={() => <About />} ></Route>
-          <Route exact path="/skills" component={() => <Skills />}></Route>
-        </Routes>
-        <Home/>
-        <Footer />
-
-
-      </Router>
+      <Footer />
     </div>
   );
 }

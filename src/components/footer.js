@@ -17,9 +17,9 @@ export default class Footer extends Component {
       <div>
         <h2> Let's get in Touch </h2>
         <section className='socials'>
-          <a href=''>{github}</a>
-          <a href=''>{envelope}</a>
-          <a href=''>{linkedin}</a>
+          <a href='https://github.com/jinane42'>{github}</a>
+          <a href='https://www.linkedin.com/in/jinane-ouzina-678ab9170/'>{envelope}</a>
+          <a href='https://www.linkedin.com/in/jinane-ouzina-678ab9170/'>{linkedin}</a>
         </section>
       </div>
     )

@@ -4,4 +4,16 @@
     color: white;
     padding: 10%;
     border: solid 20px white ;
+    display: flex;
+    
+}
+
+.profilepic{
+    width:30%;
+    border: solid 20px white ;
+}
+
+.text{
+    text-align: start;
+    padding: 50px;
 }
