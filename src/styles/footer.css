@@ -1,3 +1,26 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
 .socials a{
+    font-size: 60px;
     padding: 20px;
+    color: #a8400c;
+}
+
+.letsgetintouch {
+    height:80px;
+}
+
+.footer button{
+    background-color: #a8400c;
+    color: white;
+    border-radius: 25px;
+    box-shadow: none;
 }

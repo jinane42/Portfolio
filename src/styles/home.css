@@ -1,9 +1,8 @@
 .homeContainer{
     background-image: url(../images/BackgroundLeaves.jpg);
     background-size: cover;
-    color: white;
+    color: black;
     padding: 10%;
-    border: solid 20px white ;
     display: flex;
     
 }
@@ -16,4 +15,7 @@
 .text{
     text-align: start;
     padding: 50px;
+    background-color: rgba(255, 255, 255, 0.473);
+    border-radius: 16px;
+    margin-left: 50px;
 }

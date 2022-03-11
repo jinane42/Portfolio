@@ -36,6 +36,13 @@ export default class Experiences extends Component {
                         STUDENT JOB (animator) - Ferme Nos Pilifs
                     </li>
                 </ul>
+                <ul>
+          <li>I'm graduated as a sustainable development advisor </li>
+          <li>I love to travel and experience new things so after my bachelor I did a European Volunteer Service (EVS) in Czech Republic</li>
+          <li>During my SVE in worked with young kids and when I came back in Belgium I worked with teenager, I can say that I'm a friendly person !</li>
+          <li>Last year I decided to make a turn around in my career. And the Tech choose me ! </li>
+        </ul>
+                <h2>Let's work together !</h2>
             </div>
         )
     }
