@@ -1,26 +1,46 @@
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding-bottom: 20px;
     display: flex;
     justify-content: space-around;
+    background-color: white;
+    border-radius: 16px;
+    padding: 2vh;
+    margin: 2vh;
+    height: 7vh;
+    position: relative;
+    bottom: 0;
 }
-
+.footerElement{
+    width: 30%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.socials {
+    display: flex;
+    flex-direction: row;
+}
 .socials a{
-    font-size: 60px;
+    font-size: 50px;
     padding: 20px;
     color: #a8400c;
+}
+.socials a:hover{
+    color: #06381b;
 }
 
 .letsgetintouch {
     height:80px;
 }
 
-.footer button{
+.footerElement button{
     background-color: #a8400c;
     color: white;
     border-radius: 25px;
     box-shadow: none;
+    font-family: 'Abril Fatface', cursive;
+    padding: 0 20px
+}
+
+.footerElement button:hover{
+    background-color: #06381b;
 }

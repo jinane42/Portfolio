@@ -1,16 +1,14 @@
 .navBar{
     display: flex;
-    height: 60px;
-    padding: 20px;
+    height: 7vh;
+    padding: 2vh;
     justify-content: space-between;
     background-color: white;
-    margin: 20px;
+    margin: 2vh;
     border-radius: 16px;
-    margin-top: 45px;
+    top: 2vh
 }
-.Plants{
-    
-}
+
 ul {
     display: flex;
     text-decoration: none;
@@ -24,3 +22,13 @@ li {
 .navBtn {
     height: 50px;
 }
+
+a img:last-child {
+    display: none;  
+  }
+a:hover img:last-child {
+    display: block;  
+  }
+a:hover img:first-child {
+    display: none;  
+  }

@@ -17,26 +17,26 @@ export default class About extends Component {
         <div className='aboutText'>
           <div className='imgLeft'>
             <img src={leaves} />
-            <div>I have a huge interest for eco-friendly living, not so suprising for a sustainable development advisor I guess !</div>
+            <p>I have a huge interest for eco-friendly living, not so suprising for a sustainable development advisor I guess !</p>
           </div>
           <div className='imgRight'>
-            <div>Traveling is something I'm passionate about, </div>
+            <p>Traveling is something I'm passionate about, </p>
             <img src={backpack} />
           </div>
           <div className='imgLeft'>
             <img src={lotus} />
-            <div>Staying active is important to me, I'm focusing myself in exercicsing, yoga, swimming & walking.</div>
+            <p>Staying active is important to me, I'm focusing myself in exercicsing, yoga, swimming & walking.</p>
           </div>
           <div className='imgRight'>
-            <div>Last year I decided to make a turn around in my career. And the Tech choose me ! </div>
+            <p>Last year I decided to make a turn around in my career. And the Tech choose me ! </p>
             <img src={tech} />
           </div>
           <div className='imgLeft'>
             <img src={knit} />
-            <div>I'm crafty ! I can do a lot of things like painting, embroidering, knitting, drawing, lino cuting & more !</div>
+            <p>I'm crafty ! I can do a lot of things like painting, embroidering, knitting, drawing, lino cuting & more !</p>
           </div>
           <div className='imgRight'>
-            <div>Fun fact about me : </div>
+            <p>Fun fact about me : </p>
             <img src={moon} />
           </div>
         </div>
